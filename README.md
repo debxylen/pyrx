@@ -1,28 +1,23 @@
 # pyrx
 
-A Python extension for getting RandomX hashes.
+Fork of pyrx, A Python extension for getting RandomX hashes.
+Fixed the build issues with CMake and MinGW for Windows systems, thus Visual Studio is no longer needed to compile it. 
+Pre-built wheels are available for Python 3.12 Windows AMD64. (Backward compatibility not tested. Likely compatible with Py3.9+)
 
 ## Installation
 
 ```
-pip install git+https://github.com/jtgrassie/pyrx
+pip install git+https://github.com/debxylen/pyrx
 ```
 
 ## Usage
 
 See [tests/test.py](./tests/test.py).
 
-## Supporting the project
+## Issues and Contributing
 
-XMR donations to:
-
-```
-451ytzQg1vUVkuAW73VsQ72G96FUjASi4WNQse3v8ALfjiR5vLzGQ2hMUdYhG38Fi15eJ5FJ1ZL4EV1SFVi228muGX4f3SV
-```
-
-![QR code](./qr-small.png)
-
-would be very much appreciated.
+Please open an issue or discussion in case there are any errors in installing the extension from the wheel, or building it from the source from my fork.
+Contributions and suggestions are very welcome.
 
 ## License
 
